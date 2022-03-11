@@ -1,0 +1,271 @@
+.Banner {
+  position: relative;
+  /* height: 80vh; */
+  /* background-image: url(../public/images/woman-in-orange-coat-with-black-and-brown-scarf-5418305.svg); */
+}
+.Banner_img {
+  margin-top: -5px;
+  width: 100%;
+  height: 100%;
+}
+.Banner_container {
+  /* position: absolute; */
+}
+.Banner_first_div {
+  position: absolute;
+  /* top: 25%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-130%, -50%);
+}
+
+.Banner_h4 {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.Banner_h1 {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.Banner_btn {
+  color: #000;
+  padding: 10px 30px;
+  background: #ffd2a4;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.Banner_h6 {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.Banner_hr {
+  margin-top: 40px;
+}
+.Banner_hr {
+  margin-right: 10px;
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-114%, -50%);
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -50%);
+  }
+  .Banner_h1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .Banner_h4 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+  .Banner_btn {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 35px;
+  }
+  .Banner_h6 {
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .Banner_hr {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -50%);
+  
+  }
+  .Banner_h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+  .Banner_h4 {
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 15px;
+  }
+  .Banner_btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+  }
+  .Banner_h6 {
+    line-height: 15px;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .Banner_hr {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -50%);
+  
+  }
+  /* .Banner_h1 {
+    font-size: 45px;
+    line-height: 55px;
+  } */
+  .Banner_h1 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .Banner_h4 {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .Banner_btn {
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+  .Banner_h6 {
+    line-height: 15px;
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  .Banner_hr {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  
+
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .Banner_h1 {
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 7px;
+  }
+  .Banner_h4 {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  .Banner_btn {
+    font-size: 9px;
+    padding: 5px 6px;
+    margin-bottom: 5px;
+  }
+  .Banner_h6 {
+    line-height: 12px;
+    font-size: 8px;
+    margin-top: 0px;
+  }
+  .Banner_hr {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 400px) and (min-width: 350px) {
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+  }
+  .Banner_h4{
+    font-size: 11px !important;
+    line-height: 21px !important;
+
+  }
+  .Banner_h1{
+    font-size: 18px !important;
+    line-height: 21px !important;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  
+
+  .Banner_first_div {
+    position: absolute;
+    /* top: 25%; */
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .Banner_h1 {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 7px;
+  }
+  .Banner_h4 {
+    font-size: 9px;
+    line-height: 12px;
+    margin-bottom: 5px;
+  }
+  .Banner_btn {
+    font-size: 9px;
+    padding: 5px 6px;
+    margin-bottom: 5px;
+  }
+  .Banner_h6 {
+    line-height: 13px;
+    font-size: 8px;
+    margin-top: 0px;
+  }
+  .Banner_hr {
+    margin-top: 10px;
+  }
+}

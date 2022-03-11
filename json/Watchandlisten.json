@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "images/4.svg",
+    "h6": " WATCH AND LISTEN TO OUR SERMONS",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+  },
+  {
+    "id": 2,
+    "img": "images/5.svg",
+    "h6": " WATCH AND LISTEN TO OUR SERMONS",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+  },
+  {
+    "id": 3,
+    "img": "images/6.svg",
+    "h6": " WATCH AND LISTEN TO OUR SERMONS",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+  },
+  {
+    "id": 4,
+    "img": "images/7.svg",
+    "h6": " WATCH AND LISTEN TO OUR SERMONS",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+  }
+]

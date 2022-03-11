@@ -1,0 +1,274 @@
+.Watchandlisten {
+  background: #f5f2f0;
+}
+.Watchandlisten_container{
+    padding: 50px 0px;
+}
+.Watchandlisten_h5 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #161722;
+}
+.Watchandlisten_h2 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Watchandlisten_Col_div {
+  position: relative;
+}
+.Watchandlisten_Col_div_img {
+  width: 100%;
+}
+.Watchandlisten_Col_div_text_div {
+  padding: 30px;
+}
+.Watchandlisten_Col_div_h6 {
+  position: absolute;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  top: 70%;
+}
+
+.Watchandlisten_Col_div_p {
+  display: none;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #ffffff;
+
+  opacity: 0.78;
+  position: absolute;
+}
+.Watchandlisten_Col_div:hover .Watchandlisten_Col_div_p {
+  display: block;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.78;
+  position: absolute;
+  top: 65%;
+}
+.Watchandlisten_Col_div:hover .Watchandlisten_Col_div_h6 {
+  position: absolute;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  top: 50%;
+}
+@media (max-width:1200px) and (min-width:992px) {
+    .Watchandlisten_Col_div_h6 {
+        position: absolute;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+        top: 60%;
+        left: 15%;
+      }
+      .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_p {
+        display: block;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #ffffff;
+        opacity: 0.78;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+      }
+      .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_h6 {
+        position: absolute;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+        top: 37%;
+        left: 5%;
+      }
+}
+@media (max-width:992px) and (min-width:767px) {
+  .Watchandlisten_h2{
+    font-size: 42px;
+    line-height: 56px;
+  }
+}
+@media (max-width:767px) and (min-width:567px) {
+  .Watchandlisten_h2{
+    font-size: 39px;
+    line-height: 50px;
+  }
+    .Watchandlisten_Col_div_h6 {
+      margin-left: 48px;
+        position: absolute;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+        top: 85%;
+      }
+      .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_p {
+        display: block;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        opacity: 0.78;
+        position: absolute;
+        top: 80%;
+      }
+      .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_h6 {
+        margin: 3px;
+        position: absolute;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+        top: 73%;
+      }
+}
+@media (max-width:567px) and (min-width:400px) {
+  .Watchandlisten_h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+    .Watchandlisten_Col_div_h6 {
+        position: absolute;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+        top: 80%;
+        left: 15%;
+      }
+      .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_p {
+        display: block;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        opacity: 0.78;
+        position: absolute;
+        top: 75%;
+      }
+      .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_h6 {
+        position: absolute;
+        margin-left: 7px;
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+        top: 68%;
+        left: 5%;
+      }
+}
+@media (max-width:400px) and (min-width:320px) {
+    .Watchandlisten_h2{
+      font-size: 25px;
+      line-height: 35px;
+    }
+    .Watchandlisten_Col_div_h6 {
+      position: absolute;
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: #ffffff;
+      top: 80%;
+      left: 15%;
+    }
+    .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_p {
+      display: block;
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+      opacity: 0.78;
+      position: absolute;
+      top: 70%;
+    }
+    .Watchandlisten_Col_div:hover .Watchandlisten_Col_div_h6 {
+      position: absolute;
+      margin-left: 11px;
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: #ffffff;
+      top: 62%;
+      left: 5%;
+    }
+}

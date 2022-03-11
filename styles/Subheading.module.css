@@ -1,0 +1,123 @@
+.Subheading_row {
+  justify-content: space-around;
+}
+.Subheading_container {
+  padding: 50px 0px;
+}
+.Subheading_h5 {
+  margin-bottom: 20px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Subheading_h2 {
+  padding-bottom: 30px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Subheading_col {
+  background: #fff5eb;
+  padding: 3.5%;
+
+  width: 300px;
+  height: 300px;
+  border-bottom: 10px solid #ffd2a4;
+}
+.Subheading_h2_2 {
+  margin: 10px 0px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Subheading_p {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Black */
+
+  color: #161722;
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .Subheading_col {
+    margin-bottom: 20px;
+  }
+  .Subheading_h2 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .Subheading_h2 {
+    font-size: 39px;
+    line-height: 50px;
+  }
+  .Subheading_row {
+    display: flex;
+    justify-content: center;
+  }
+  .Subheading_col {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .Subheading_h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .Subheading_row {
+    display: flex;
+    justify-content: center;
+  }
+  .Subheading_col {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .Subheading_h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .Subheading_row {
+    display: flex;
+    justify-content: center;
+  }
+  .Subheading_col {
+    margin-bottom: 20px;
+  }
+}
