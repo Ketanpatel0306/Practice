@@ -1,10 +1,10 @@
 .Background {
   position: relative;
 }
-.Background:hover .Background_firstmain_div{
+.Background:hover .Backgroundfirstmaindiv{
   opacity: 1;
 }
-.Background_firstmain_div {
+.Backgroundfirstmaindiv {
   opacity: 0;
   align-self: center;
   position: absolute;
@@ -18,40 +18,32 @@
   padding: 30px 40px;
   border-bottom: 10px solid #ffd2a4;
   display: flex;
+  transition: 0.3s;
 }
-.Background_first_div {
+.Backgroundfirstdiv {
   align-self: center;
 }
-.Background_first_div_h2 {
+.Backgroundfirstdivh2 {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  /* or 133% */
-
   letter-spacing: -0.01em;
   text-transform: uppercase;
-
-  /* Black */
-
   color: #161722;
 }
-.Background_first_div_p {
+.Backgroundfirstdivp {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
-  /* Black */
   margin: 20px 0px;
   color: #161722;
-
   opacity: 0.78;
 }
-.Background_first_div_btn {
+.Backgroundfirstdivbtn {
   color: black;
   padding: 15px 50px;
   text-align: center;
@@ -60,85 +52,85 @@
   border-radius: 12px;
 }
 @media (max-width: 1200px) and (min-width: 992px) {
-  .Background_firstmain_div {
+  .Backgroundfirstmaindiv {
     width: 658px;
     height: 304px;
   }
-  .Background_first_div_h2 {
+  .Backgroundfirstdivh2 {
     font-size: 34px;
     line-height: 44px;
   }
-  .Background_first_div_p{
+  .Backgroundfirstdivp{
     font-size: 16px;
     line-height: 24px;
   }
 }
 @media (max-width: 992px) and (min-width: 767px) {
-  .Background_firstmain_div {
+  .Backgroundfirstmaindiv {
     width: 658px;
     height: 304px;
   }
-  .Background_first_div_h2 {
+  .Backgroundfirstdivh2 {
     font-size: 34px;
     line-height: 44px;
   }
-  .Background_first_div_p{
+  .Backgroundfirstdivp{
     font-size: 16px;
     line-height: 24px;
   }
 }
 @media (max-width: 767px) and (min-width: 567px) {
-  .Background_firstmain_div {
+  .Backgroundfirstmaindiv {
     width: 500px;
     height: 200px;
   }
-  .Background_first_div_h2 {
+  .Backgroundfirstdivh2 {
     margin-bottom: 0;
     font-size: 25px;
     line-height: 35px;
   }
-  .Background_first_div_p {
+  .Backgroundfirstdivp {
     margin: 5px 0px; 
     font-size: 16px;
     line-height: 24px;
   }
-  .Background_first_div_btn{
+  .Backgroundfirstdivbtn{
     padding: 8px 20px;
   }
 }
 @media (max-width: 567px) and (min-width: 350px) {
-  .Background_firstmain_div {
+  .Backgroundfirstmaindiv {
     width: 330px;
     height: 150px;
   }
-  .Background_first_div_h2 {
+  .Backgroundfirstdivh2 {
     font-size: 15px;
     line-height: 19px;
   }
-  .Background_first_div_p {
+  .Backgroundfirstdivp {
     margin: 5px 0px;
     font-size: 11px;
     line-height: 11px;
   }
-  .Background_first_div_btn{
+  .Backgroundfirstdivbtn{
     padding: 4px 20px;
   }
 }
 @media (max-width: 350px) and (min-width: 320px) {
-  .Background_firstmain_div {
+  .Backgroundfirstmaindiv {
     width: 272px;
     height: 130px;
   }
-  .Background_first_div_h2 {
+  .Backgroundfirstdivh2 {
     font-size: 12px;
     line-height: 14px;
   }
-  .Background_first_div_p {
+  .Backgroundfirstdivp {
     margin: 5px 0px;
     font-size: 8px;
     line-height: 9px;
   }
-  .Background_first_div_btn{
+  .Backgroundfirstdivbtn{
     padding: 4px 20px;
     font-size: 8px;
   }

@@ -1,5 +1,5 @@
 .Subheading_row {
-  justify-content: space-around;
+  justify-content: center;
 }
 .Subheading_container {
   padding: 50px 0px;
@@ -40,7 +40,7 @@
 .Subheading_col {
   background: #fff5eb;
   padding: 3.5%;
-
+margin: 10px;
   width: 300px;
   height: 300px;
   border-bottom: 10px solid #ffd2a4;
@@ -75,7 +75,7 @@
 }
 @media (max-width: 992px) and (min-width: 767px) {
   .Subheading_col {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   .Subheading_h2 {
     font-size: 42px;
@@ -92,7 +92,7 @@
     justify-content: center;
   }
   .Subheading_col {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 @media (max-width: 567px) and (min-width: 350px) {
@@ -105,7 +105,7 @@
     justify-content: center;
   }
   .Subheading_col {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 @media (max-width: 350px) and (min-width: 320px) {
@@ -118,6 +118,6 @@
     justify-content: center;
   }
   .Subheading_col {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }

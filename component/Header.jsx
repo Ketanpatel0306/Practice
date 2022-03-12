@@ -39,7 +39,7 @@ export const Header = () => {
               <Nav.Link href="#home" className={Style.nav_text}>
                 Home
               </Nav.Link>
-              <Nav.Link href="" className={Style.nav_text}>
+              <Nav.Link href="aboutus" className={Style.nav_text}>
                 About us
               </Nav.Link>
               <Nav.Link href="#home" className={Style.nav_text}>
