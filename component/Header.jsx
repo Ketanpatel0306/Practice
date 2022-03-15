@@ -3,18 +3,15 @@ import { Container, Navbar, Nav, Image, Button } from "react-bootstrap";
 import Style from "../styles/Header.module.css";
 
 export const Header = () => {
-  // const [toggleMenu, setToggleMenu] = useState(false);
-  // const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  // useEffect(() => {
-  //   const changeWidth = () => {
-  //     setScreenWidth(window.innerWidth);
-  //   };
-  //   window.addEventListener("resize", changeWidth);
-  //   return () => {
-  //     window.removeEventListener("reset", changeWidth);
-  //   };
-  // }, []);
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [screenWidth, setScreenWidth] = useState("");
+  const OnCange = () => {
+    setToggleMenu(true);
+    setTimeout(() => {
+      setToggleMenu(false);
+    }, 3500);
+  };
+  useEffect(() => {}, []);
 
   // const toggleNav = () => {
   //   setToggleMenu(!toggleMenu);
@@ -39,9 +36,25 @@ export const Header = () => {
               <Nav.Link href="#home" className={Style.nav_text}>
                 Home
               </Nav.Link>
-              <Nav.Link href="aboutus" className={Style.nav_text}>
-                About us
-              </Nav.Link>
+              {toggleMenu ? (
+                ""
+              ) : (
+                <Nav.Link
+                  href="aboutus"
+                  className={Style.nav_text}
+                  onClick={OnCange}
+                >
+                  About us
+                </Nav.Link>
+              )}
+              {toggleMenu ? (
+                <h1 Style={{ color: "white", fontSize: "50px" }}>
+                  Lodaing.....!!
+                </h1>
+              ) : (
+                ""
+              )}
+
               <Nav.Link href="#home" className={Style.nav_text}>
                 Sermon
               </Nav.Link>

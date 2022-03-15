@@ -6,4 +6,7 @@ export * from "./Watchandlisten";
 export * from "./Upcomingsermons";
 export * from "./Background";
 export * from "./Footer";
-export * from "./Readourblog"
+export * from "./Readourblog";
+// secound design
+export * from "./Banner2";
+export * from "./Welcome";

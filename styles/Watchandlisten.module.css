@@ -15,19 +15,15 @@
   color: #161722;
 }
 .Watchandlisten_h2 {
+  padding-bottom: 30px;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  /* or 133% */
-
   text-align: center;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-
-  /* Black */
-
   color: #161722;
 }
 .Watchandlisten_Col_div {

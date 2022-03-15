@@ -176,6 +176,9 @@
     font-size: 30px;
     line-height: 40px;
   }
+  .Subheadline_row{
+    
+  }
 }
 @media (max-width: 350px) and (min-width: 320px) {
   .Subheadline_h2 {

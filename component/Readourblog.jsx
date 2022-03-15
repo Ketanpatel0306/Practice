@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Style from "../styles/readourblog.module.css";
+import Style from "../styles/Readourblog.module.css";
 import jsondata from "../json/Readingourblog.json";
-
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css/animate.min.css";
 export const Readourblog = () => {
   const [data] = useState(jsondata);
   return (
@@ -21,27 +22,35 @@ export const Readourblog = () => {
                 xs={12}
                 className={Style.Readourblog_col}
               >
-                <div className={Style.Readourblog_col_first_div}>
-                  <h6 className={Style.Readourblog_col_first_div_h6}>{i.h6}</h6>
-                  <h3 className={Style.Readourblog_col_first_div_h3}>{i.h3}</h3>
-                  <p className={Style.Readourblog_col_first_div_p}>{i.p}</p>
-                  <div className={Style.Readourblog_col_first_div_last_addres}>
-                    <h5
-                      className={
-                        Style.Readourblog_col_first_div_last_addres_h5_1
-                      }
+                <AnimationOnScroll animateIn="animate__bounceIn">
+                  <div className={Style.Readourblog_col_first_div}>
+                    <h6 className={Style.Readourblog_col_first_div_h6}>
+                      {i.h6}
+                    </h6>
+                    <h3 className={Style.Readourblog_col_first_div_h3}>
+                      {i.h3}
+                    </h3>
+                    <p className={Style.Readourblog_col_first_div_p}>{i.p}</p>
+                    <div
+                      className={Style.Readourblog_col_first_div_last_addres}
                     >
-                      {i.h51}
-                    </h5>
-                    <h5
-                      className={
-                        Style.Readourblog_col_first_div_last_addres_h5_2
-                      }
-                    >
-                      {i.h52}
-                    </h5>
+                      <h5
+                        className={
+                          Style.Readourblog_col_first_div_last_addres_h5_1
+                        }
+                      >
+                        {i.h51}
+                      </h5>
+                      <h5
+                        className={
+                          Style.Readourblog_col_first_div_last_addres_h5_2
+                        }
+                      >
+                        {i.h52}
+                      </h5>
+                    </div>
                   </div>
-                </div>
+                </AnimationOnScroll>
               </Col>
             );
           })}
