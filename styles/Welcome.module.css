@@ -1,4 +1,5 @@
 .Welcomeh5 {
+  padding-top: 30px;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
@@ -20,6 +21,7 @@
   color: #161722;
 }
 .Welcomeh6 {
+  padding-bottom: 10px;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
@@ -29,13 +31,24 @@
   color: #161722;
   opacity: 0.78;
 }
-.WelcomeImg {
+.WelcomeImg1 {
+  max-width: 80%;
+  display: block;
+  justify-self: end;
+  align-self: center;
+}
+.WelcomeImg2 {
   max-width: 100%;
   display: block;
   justify-self: center;
   align-self: center;
 }
-
+.WelcomeImg3 {
+  max-width: 80%;
+  display: block;
+  justify-self: start;
+  align-self: center;
+}
 .Welcomefigure {
   margin: 0;
   display: grid;
@@ -54,4 +67,210 @@
 }
 .landscape {
   grid-column-end: span 2;
+}
+.Welcomerow {
+  padding: 30px 0px;
+}
+.Welcomecol{
+  padding: 30px;
+}
+.Welcome2H6 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Welcome2H4 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 138% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Welcomep {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Black */
+
+  color: #161722;
+
+  opacity: 0.78;
+}
+
+@media (max-width: 1400px) and (min-width: 992px) {
+  .WelcomeImg1 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg2 {
+    max-width: 100%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg3 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .Welcomeh5 {
+    font-size: 14px;
+  }
+  .Welcomeh2 {
+    font-size: 39px;
+    line-height: 39px;
+  }
+  .Welcomeh6 {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .WelcomeImg1 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg2 {
+    max-width: 100%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg3 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .Welcome2H4{
+    font-size: 28px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .Welcomeh5 {
+    font-size: 14px;
+  }
+  .Welcomeh2 {
+    font-size: 39px;
+    line-height: 39px;
+  }
+  .Welcomeh6 {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .WelcomeImg1 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg2 {
+    max-width: 100%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg3 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .Welcome2H4{
+    font-size: 25px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .Welcomeh5 {
+    font-size: 13px;
+  }
+  .Welcomeh2 {
+    font-size: 21px;
+    line-height: 20px;
+  }
+  .Welcomeh6 {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .WelcomeImg1 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg2 {
+    max-width: 100%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg3 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .Welcome2H4{
+    font-size: 23px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .Welcomeh5 {
+    font-size: 13px;
+  }
+  .Welcomeh2 {
+    font-size: 21px;
+    line-height: 20px;
+  }
+  .Welcomeh6 {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .WelcomeImg1 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg2 {
+    max-width: 100%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .WelcomeImg3 {
+    max-width: 80%;
+    display: block;
+    justify-self: center;
+    align-self: center;
+  }
+  .Welcome2H4{
+    font-size: 20px;
+  }
 }

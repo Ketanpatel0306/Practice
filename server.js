@@ -6,8 +6,8 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 app.prepare().then(() => {
   const server = express();
-  server.get("/Home", (req, res) => {
-    app.render(req, res, "/Home");
+  server.get("/home", (req, res) => {
+    app.render(req, res, "/");
   });
  
   server.get("/aboutus", (req, res) => {

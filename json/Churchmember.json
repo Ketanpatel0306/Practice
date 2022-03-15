@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "Images/Church.svg",
+    "h2": "Kim Bowen",
+    "h6": "Pastor, Church",
+    "img1": "Images/Negative 1.svg",
+    "img2": "Images/Negative.svg",
+    "img3": "Images/Group.svg"
+  },
+  {
+    "id": 2,
+    "img": "Images/Church1.svg",
+    "h2": "Kim Bowen",
+    "h6": "Danielle Watkins",
+    "img1": "Images/Negative 1.svg",
+    "img2": "Images/Negative.svg",
+    "img3": "Images/Group.svg"
+  },
+  {
+    "id": 3,
+    "img": "Images/Church2.svg",
+    "h2": "Naomi Craig",
+    "h6": "Pastor, Church",
+    "img1": "Images/Negative 1.svg",
+    "img2": "Images/Negative.svg",
+    "img3": "Images/Group.svg"
+  },
+  {
+    "id": 4,
+    "img": "Images/Church3.svg",
+    "h2": "Santos Payne",
+    "h6": "Pastor, Church",
+    "img1": "Images/Negative 1.svg",
+    "img2": "Images/Negative.svg",
+    "img3": "Images/Group.svg"
+  }
+]

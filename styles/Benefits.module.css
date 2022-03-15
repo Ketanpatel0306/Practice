@@ -1,0 +1,70 @@
+.BenefitsH5 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Black */
+
+  color: #161722;
+}
+.BenefitsH2 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.BenefitsCol {
+  align-self: center;
+  margin: 10px 0px;
+}
+.BenefitsCol2 {
+  margin: 10px 0px;
+}
+.BenefitsFirstdiv {
+  padding: 20px;
+  margin: 10px 0px;
+}
+.BenefitsFirstdivH4 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.BenefitsFirstdivP {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Black */
+
+  color: #161722;
+
+  opacity: 0.78;
+}

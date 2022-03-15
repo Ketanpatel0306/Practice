@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "h4": "find fulfillment and joy",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
+    "img": "Images/Benefits.png"
+  },
+  {
+    "id": 2,
+    "h4": "shared values",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
+    "img": "Images/Benefits1.png"
+  },
+  {
+    "id": 3,
+    "h4": "charity events",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
+    "img": "Images/Benefits2.png"
+  },
+  {
+    "id": 4,
+    "h4": "All are welcome",
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
+    "img": "Images/Benefits3.png"
+  }
+]

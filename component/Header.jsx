@@ -2,20 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Container, Navbar, Nav, Image, Button } from "react-bootstrap";
 import Style from "../styles/Header.module.css";
 
-export const Header = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const [screenWidth, setScreenWidth] = useState("");
-  const OnCange = () => {
-    setToggleMenu(true);
-    setTimeout(() => {
-      setToggleMenu(false);
-    }, 3500);
-  };
-  useEffect(() => {}, []);
+export const Header = (props) => {
+  const { onAboutChange } = props;
 
-  // const toggleNav = () => {
-  //   setToggleMenu(!toggleMenu);
-  // };
   return (
     <div className={Style.Header_main_div}>
       <Navbar expand="lg" className={Style.Headr_navbar}>
@@ -33,32 +22,22 @@ export const Header = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav" className={Style.Collapse}>
             <Nav className={Style.nav}>
-              <Nav.Link href="#home" className={Style.nav_text}>
+              <Nav.Link href="/home" className={Style.nav_text}>
                 Home
               </Nav.Link>
-              {toggleMenu ? (
-                ""
-              ) : (
-                <Nav.Link
-                  href="aboutus"
-                  className={Style.nav_text}
-                  onClick={OnCange}
-                >
-                  About us
-                </Nav.Link>
-              )}
-              {toggleMenu ? (
-                <h1 Style={{ color: "white", fontSize: "50px" }}>
-                  Lodaing.....!!
-                </h1>
-              ) : (
-                ""
-              )}
 
-              <Nav.Link href="#home" className={Style.nav_text}>
+              <Nav.Link
+                href="/aboutus"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
+                About us
+              </Nav.Link>
+
+              <Nav.Link href="/home" className={Style.nav_text}>
                 Sermon
               </Nav.Link>
-              <Nav.Link href="#home" className={Style.nav_text}>
+              <Nav.Link href="/home" className={Style.nav_text}>
                 Blog
               </Nav.Link>
             </Nav>
@@ -66,18 +45,6 @@ export const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <nav className={Style.secound_nav}>
-        {(toggleMenu || screenWidth > 992) && (
-          <ul className={Style.secound_list}>
-            <li className={Style.secound_item}>Home</li>
-            <li className={Style.secound_item}>Services</li>
-            <li className={Style.secound_item}>Contact</li>
-          </ul>
-        )}
-        <button className={Style.secound_btn} onClick={toggleNav}>
-          BTN
-        </button>
-      </nav> */}
     </div>
   );
 };

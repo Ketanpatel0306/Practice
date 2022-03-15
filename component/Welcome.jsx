@@ -25,53 +25,48 @@ export const Welcome = () => {
             </h6>
           </div>
 
-          {/* <Row> */}
-            {/* <Masonry
-            breakpointCols={breakpoints}
-            className="my-masonry-grid"
-            columnClassName="my-masonry-grid_column"
-          > */}
-            {/* <Col
-              xl={4}
-              lg={4}
-              md={6}
-              sm={12}
-              xs={12}
-              className={Style.WelcomeCol}
-            > */}
-              <div className={Style.WelcomeMasonry}>
-                <figure className={Style.Welcomefigure}>
-                  <Image src="./images/1.svg" className={Style.WelcomeImg} />
-                </figure>
+          <div className={Style.WelcomeMasonry}>
+            <figure className={Style.Welcomefigure}>
+              <Image src="./images/1.svg" className={Style.WelcomeImg1} />
+            </figure>
 
-                {/* </Col>
-          <Col
-            xl={4}
-            lg={4}
-            md={6}
-            sm={12}
-            xs={12}
-            className={Style.WelcomeCol}
-          > */}
-                <figure className={Style.Welcomefigure}>
-                  <Image src="./images/2.svg" className={Style.WelcomeImg} />
-                </figure>
-                {/* </Col>
-          <Col
-            xl={4}
-            lg={4}
-            md={6}
-            sm={12}
-            xs={12}
-            className={Style.WelcomeCol}
-          > */}
-                <figure className={Style.Welcomefigure}>
-                  <Image src="./images/3.svg" className={Style.WelcomeImg} />
-                </figure>
-              </div>
-            {/* </Col> */}
-            {/* </Masonry> */}
-          {/* </Row> */}
+            <figure className={Style.Welcomefigure}>
+              <Image src="./images/2.svg" className={Style.WelcomeImg2} />
+            </figure>
+
+            <figure className={Style.Welcomefigure}>
+              <Image src="./images/3.svg" className={Style.WelcomeImg3} />
+            </figure>
+          </div>
+
+          <Row className={Style.Welcomerow}>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12}  className={Style.Welcomecol} >
+              <h6 className={Style.Welcome2H6}>OUR MISSIOn & Vision</h6>
+              <h4 className={Style.Welcome2H4}>
+                STRIVING FOR A BETTER TOMORROW
+              </h4>
+              <p className={Style.Welcomep}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum.
+              </p>
+            </Col>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12}  className={Style.Welcomecol}>
+              <h6 className={Style.Welcome2H6}>WHAT WE DO</h6>
+              <h4 className={Style.Welcome2H4}>
+                BRINgING PEACE AND JOY TO THE WORLD
+              </h4>
+              <p className={Style.Welcomep}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum.
+              </p>
+            </Col>
+          </Row>
         </Container>
       </AnimationOnScroll>
     </div>

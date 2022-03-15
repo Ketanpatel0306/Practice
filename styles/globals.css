@@ -18,7 +18,7 @@ a {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
-   /* gutter size offset */
+  /* gutter size offset */
   width: auto;
 }
 .my-masonry-grid_column {
@@ -33,12 +33,13 @@ a {
   margin-bottom: 30px;
 }
 
-@media (max-width:800px) and (min-width:320px){
+@media (max-width: 800px) and (min-width: 320px) {
   .my-masonry-grid {
     display: -webkit-box; /* Not needed if autoprefixing */
     display: -ms-flexbox; /* Not needed if autoprefixing */
     display: flex;
     margin-left: 0px; /* gutter size offset */
     width: auto;
+    
   }
 }
