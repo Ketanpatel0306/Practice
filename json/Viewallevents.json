@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "h5": "Upcoming Event",
+    "h6": " 20",
+    "h4": "JULY",
+    "h3": "100 random acts of kindness",
+    "p": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do    eiusmod tempor.",
+    "img": "images/icon (4).svg",
+    "h7": " Friday 23:39 IST   Saturday 11:20 ISD",
+    "img1": "images/Clock icon.svg",
+    "h72": " No 233 Main St. New York,  United States"
+  },
+  {
+    "id": 2,
+    "h5": "Upcoming Event",
+    "h6": " 20",
+    "h4": "JULY",
+    "h3": " Faith is a process, not a destination",
+    "p": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do    eiusmod tempor.",
+    "img": "images/icon (4).svg",
+    "h7": " Friday 23:39 IST  Saturday 11:20 ISD",
+    "img1": "images/Clock icon.svg",
+    "h72": " No 233 Main St. New York,  United States"
+  },
+  {
+    "id": 3,
+    "h5": "Upcoming Event",
+    "h6": " 20",
+    "h4": "JULY",
+    "h3": "there is nothing impossible",
+    "p": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do    eiusmod tempor.",
+    "img": "images/icon (4).svg",
+    "h7": " Friday 23:39 IST Saturday 11:20 ISD",
+    "img1": "images/Clock icon.svg",
+    "h72": " No 233 Main St. New York,  United States"
+  },
+  {
+    "id": 4,
+    "h5": "Upcoming Event",
+    "h6": " 20",
+    "h4": "JULY",
+    "h3": "WATCH AND LISTEN TO OUR SERMONS",
+    "p": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do    eiusmod tempor.",
+    "img": "images/icon (4).svg",
+    "h7": " Friday 23:39 IST   Saturday 11:20 ISD",
+    "img1": "images/Clock icon.svg",
+    "h72": " No 233 Main St. New York,   United States"
+  }
+]

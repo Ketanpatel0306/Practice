@@ -9,11 +9,16 @@ app.prepare().then(() => {
   server.get("/home", (req, res) => {
     app.render(req, res, "/");
   });
- 
+
   server.get("/aboutus", (req, res) => {
     app.render(req, res, "/Aboutus");
   });
-
+  server.get("/sermon", (req, res) => {
+    app.render(req, res, "/Sermon");
+  });
+  server.get("/blog", (req, res) => {
+    app.render(req, res, "/Blog");
+  });
   server.all("*", (req, res) => {
     return handle(req, res, "/");
   });

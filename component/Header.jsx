@@ -34,10 +34,14 @@ export const Header = (props) => {
                 About us
               </Nav.Link>
 
-              <Nav.Link href="/home" className={Style.nav_text}>
+              <Nav.Link
+                href="/sermon"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
                 Sermon
               </Nav.Link>
-              <Nav.Link href="/home" className={Style.nav_text}>
+              <Nav.Link href="/blog" className={Style.nav_text}>
                 Blog
               </Nav.Link>
             </Nav>

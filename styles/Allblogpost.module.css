@@ -1,0 +1,86 @@
+.AllblogpostRow {
+  padding: 70px 0px;
+}
+.Viewalleventsmaindiv {
+  background-color: #fff;
+  padding: 30px 20px;
+}
+.Allblogposth1 {
+  margin-bottom: 30px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+.Viewalleventsmaindiv:hover {
+  box-shadow: inset 0 -10px 0 #ffd0a0;
+}
+.Upcomingsermons_container_col1 {
+  padding: 10px;
+}
+.Upcomingsermons_container_first_col_h6 {
+  margin-bottom: 10px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: linear-gradient(109.61deg, #a54e2b -53.83%, #dc9853 62.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.Upcomingsermons_container_first_col_h4 {
+  margin-bottom: 20px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+.Upcomingsermons_container_first_col_p {
+  margin-bottom: 50px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+}
+.Upcomingsermons_container_first_col_secound_div_text_h7 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #161722;
+}
+
+.Upcomingsermons_container_first_col_secound_div_text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+  .Upcomingsermons_container_first_col_h4 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .Upcomingsermons_container_first_col_h4 {
+    font-size: 29px;
+  }
+}
