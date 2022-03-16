@@ -17,7 +17,7 @@ export const Watchandlisten = () => {
             </h2>
           </AnimationOnScroll>
           <Row>
-            {data.map((i) => {
+            {data.map((i, k) => {
               return (
                 <Col
                   xl={3}
@@ -25,6 +25,7 @@ export const Watchandlisten = () => {
                   md={6}
                   sm={12}
                   xs={12}
+                  key={k + "Watchandlist"}
                   className={Style.Watchandlisten_Col}
                 >
                   <div className={Style.Watchandlisten_Col_div}>

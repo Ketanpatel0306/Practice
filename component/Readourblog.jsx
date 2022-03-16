@@ -12,7 +12,7 @@ export const Readourblog = () => {
         <Row className={Style.Readourblog_row}>
           <h6 className={Style.Readourblog_h6}>Read our Blog</h6>
           <h1 className={Style.Readourblog_h1}>SHARE, INSPIRE, INNOVATE</h1>
-          {data.map((i) => {
+          {data.map((i, k) => {
             return (
               <Col
                 xl={3}
@@ -20,6 +20,7 @@ export const Readourblog = () => {
                 md={6}
                 sm={12}
                 xs={12}
+                key={k + "Readingblog"}
                 className={Style.Readourblog_col}
               >
                 <AnimationOnScroll animateIn="animate__bounceIn">

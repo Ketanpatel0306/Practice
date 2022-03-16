@@ -3,24 +3,24 @@
     "id": 1,
     "h4": "find fulfillment and joy",
     "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
-    "img": "Images/Benefits.png"
+    "img": "Images/Benefits3.png"
   },
   {
     "id": 2,
+    "img": "Images/Benefits.png",
     "h4": "shared values",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
-    "img": "Images/Benefits1.png"
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit."
   },
   {
     "id": 3,
     "h4": "charity events",
     "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
-    "img": "Images/Benefits2.png"
+    "img": "Images/Benefits1.png"
   },
   {
     "id": 4,
+    "img": "Images/Benefits2.png",
     "h4": "All are welcome",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit.",
-    "img": "Images/Benefits3.png"
+    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor    in reprehenderit."
   }
 ]

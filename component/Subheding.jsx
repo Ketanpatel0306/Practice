@@ -14,7 +14,7 @@ export const Subheading = () => {
           <Row className={Style.Subheading_row}>
             <h5 className={Style.Subheading_h5}>sub-headline</h5>
             <h2 className={Style.Subheading_h2}>a church that's relevant</h2>
-            {data.map((i) => {
+            {data.map((i, k) => {
               return (
                 <Col
                   xl={4}
@@ -22,6 +22,7 @@ export const Subheading = () => {
                   md={6}
                   sm={12}
                   xs={12}
+                  key={k + "Subheding"}
                   className={Style.Subheading_col}
                 >
                   <AnimationOnScroll animateIn="animate__bounceInRight">
