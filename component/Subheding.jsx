@@ -26,7 +26,7 @@ export const Subheading = () => {
                   className={Style.Subheading_col}
                 >
                   <AnimationOnScroll animateIn="animate__bounceInRight">
-                    <Image Src={i.img} />
+                    <Image src={i.img} />
                     <h2 className={Style.Subheading_h2_2}>{i.h2}</h2>
                     <p className={Style.Subheading_p}>{i.p}</p>
                   </AnimationOnScroll>

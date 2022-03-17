@@ -12,11 +12,17 @@ export * from "./Banner2";
 export * from "./Welcome";
 export * from "./Churchmember";
 export * from "./Benefits";
-// theard design
+// third design
 export * from "./Viewallevents";
-//design four
+// four design
 export * from "./Ourblog";
 export * from "./Allblogpost";
-// LOder
+//fifth design
+export * from "./Banner3";
+// six design
+export * from "./Upcomingsermonsevent";
+// seven design
+export * from "./Froms";
+// Loder
 export * from "./Loader";
 export * from "./Pageanimation";

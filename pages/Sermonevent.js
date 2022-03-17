@@ -1,8 +1,14 @@
 import React from "react";
-import { Header, Footer, Ourblog, Allblogpost, Loader } from "../Component";
+import {
+  Header,
+  Footer,
+  Viewallevents,
+  Loader,
+  Upcomingsermonsevent,
+} from "../Component";
 import { useState } from "react";
 
-const Blog = () => {
+const Sermonevent = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const OnCange = () => {
     setToggleMenu(true);
@@ -28,10 +34,11 @@ const Blog = () => {
         </div>
       )}
       <Header onAboutChange={() => OnCange()} />
-      <Ourblog />
-      <Allblogpost />
+      <Upcomingsermonsevent />
+      <Viewallevents />
       <Footer />
     </div>
   );
 };
-export default Blog;
+
+export default Sermonevent;

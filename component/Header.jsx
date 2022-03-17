@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { Container, Navbar, Nav, Image, Button } from "react-bootstrap";
 import Style from "../styles/Header.module.css";
 
@@ -22,7 +21,11 @@ export const Header = (props) => {
           />
           <Navbar.Collapse id="basic-navbar-nav" className={Style.Collapse}>
             <Nav className={Style.nav}>
-              <Nav.Link href="/home" className={Style.nav_text}>
+              <Nav.Link
+                href="/home"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
                 Home
               </Nav.Link>
 
@@ -41,8 +44,33 @@ export const Header = (props) => {
               >
                 Sermon
               </Nav.Link>
-              <Nav.Link href="/blog" className={Style.nav_text}>
+              <Nav.Link
+                href="/blog"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
                 Blog
+              </Nav.Link>
+              <Nav.Link
+                href="/blogpost"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
+                Blog Post
+              </Nav.Link>
+              <Nav.Link
+                href="/sermonevent"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
+                Sermon Event
+              </Nav.Link>
+              <Nav.Link
+                href="/contect"
+                className={Style.nav_text}
+                onClick={() => onAboutChange()}
+              >
+                Contect
               </Nav.Link>
             </Nav>
             <Button className={Style.nav_btn}>Contact us</Button>

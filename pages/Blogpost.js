@@ -1,8 +1,7 @@
 import React from "react";
-import { Header, Footer, Ourblog, Allblogpost, Loader } from "../Component";
-import { useState } from "react";
+import { Banner3, Footer, Header } from "../Component";
 
-const Blog = () => {
+const Blogpost = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const OnCange = () => {
     setToggleMenu(true);
@@ -28,10 +27,9 @@ const Blog = () => {
         </div>
       )}
       <Header onAboutChange={() => OnCange()} />
-      <Ourblog />
-      <Allblogpost />
+      <Banner3 />
       <Footer />
     </div>
   );
 };
-export default Blog;
+export default Blogpost;

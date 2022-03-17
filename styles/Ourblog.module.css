@@ -1,4 +1,5 @@
 .Ourblogh5 {
+  padding-top: 50px;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
@@ -13,6 +14,7 @@
   color: #161722;
 }
 .Ourblogh2 {
+  margin: 15px 0px;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 700;
@@ -125,16 +127,16 @@
   }
 }
 @media (max-width: 767px) and (min-width: 567px) {
-    .Ourblogh2{
-        font-size: 31px;
-        line-height: 55px;
-    }
+  .Ourblogh2 {
+    font-size: 31px;
+    line-height: 55px;
+  }
 }
 @media (max-width: 567px) and (min-width: 350px) {
-    .Ourblogh2{
-        font-size: 31px;
-        line-height: 55px;
-    }
+  .Ourblogh2 {
+    font-size: 31px;
+    line-height: 55px;
+  }
   .OurblogColSecoundDivH5,
   .OurblogColSecoundDivH51 {
     font-size: 11px;
@@ -155,11 +157,11 @@
   }
 }
 @media (max-width: 350px) and (min-width: 320px) {
-    .Ourblogh2{
-        font-size: 31px;
-        line-height: 55px;
-    }
-    .OurblogColSecoundDivH5,
+  .Ourblogh2 {
+    font-size: 31px;
+    line-height: 55px;
+  }
+  .OurblogColSecoundDivH5,
   .OurblogColSecoundDivH51 {
     font-size: 11px;
   }

@@ -1,0 +1,153 @@
+.Banner3 {
+  margin: 100px 0px;
+}
+.Banner3H6 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Gradient */
+
+  background: linear-gradient(109.61deg, #a54e2b -53.83%, #dc9853 62.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Banner3H1 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  /* Black */
+  color: #161722;
+}
+.Banner3H5 {
+  margin-bottom: 50px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  /* identical to box height, or 150% */
+
+  /* Black */
+
+  color: #161722;
+}
+
+.Banner3Img {
+  width: 100%;
+}
+
+.Banner3H2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Banner3P {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  /* Black */
+
+  color: #161722;
+
+  opacity: 0.78;
+}
+.Banner3H3 {
+  margin: 30px 0px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #161722;
+}
+.Banner3H4 {
+  margin: 30px 0px;
+  padding: 0px 40px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  /* Black */
+  box-shadow: inset 3px 0 0 0 #dc9853;
+  color: #161722;
+
+  opacity: 0.78;
+}
+.Banner3Ul {
+  /* margin-left: -10px; */
+  padding-left: 20px;
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .Banner3H1 {
+    font-size: 44px;
+  }
+  .Banner3H2 {
+    font-size: 41px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .Banner3H1 {
+    font-size: 44px;
+  }
+  .Banner3H2 {
+    font-size: 41px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .Banner3H1 {
+    font-size: 28px;
+  }
+  .Banner3H2 {
+    font-size: 26px;
+    line-height: 43px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .Banner3H1 {
+    font-size: 25px;
+  }
+  .Banner3H2 {
+    font-size: 23px;
+    line-height: 43px;
+  }
+}

@@ -19,6 +19,15 @@ app.prepare().then(() => {
   server.get("/blog", (req, res) => {
     app.render(req, res, "/Blog");
   });
+  server.get("/blogpost", (req, res) => {
+    app.render(req, res, "/Blogpost");
+  });
+  server.get("/sermonevent", (req, res) => {
+    app.render(req, res, "/Sermonevent");
+  });
+  server.get("/contect", (req, res) => {
+    app.render(req, res, "/Contect");
+  });
   server.all("*", (req, res) => {
     return handle(req, res, "/");
   });
